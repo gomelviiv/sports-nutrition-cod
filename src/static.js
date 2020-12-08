@@ -1,0 +1,1 @@
+export const urlBack = 'http://localhost:8000/images'

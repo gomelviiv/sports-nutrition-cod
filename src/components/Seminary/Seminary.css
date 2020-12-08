@@ -1,0 +1,226 @@
+
+.content-holder__wrap {
+    z-index: 2;
+}
+
+.content-holder__wrap > div:nth-child(2){
+    max-width: 150rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.image-plus-text-1{
+    background: url('../../../images/serv.jpg')  no-repeat center / cover;
+    background-color: rgba(0, 0, 0, 0.52);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 20px;
+    background-size: cover;
+    
+}
+.modal-sem {
+    position:  absolute;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    padding: 0;
+    border: none;
+    
+}
+.all-seminars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    font-family: 'Roboto Slab', serif;
+}
+
+.all-seminars > div {
+    margin: 5rem 0;
+    box-shadow: 0 6px 26px #61444440;
+    border-radius: 33px;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: row;
+}
+.all-seminars > div > p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    font-size: 2rem;
+    color: #8c8b80;
+    background: #f5f4e5;
+    border-radius: 33px 0 0 33px;
+}
+.all-seminars > div > p > label:nth-child(1){
+    font-size: 4rem;
+}
+    
+.all-seminars > div > div > img { 
+    width: 100%;
+    max-width: 60rem;
+    max-height: 29rem;
+    height: 100%;
+}
+
+.dispcription-seminar {
+    padding: 2rem;
+    border-right: 1px solid #dae1e6;
+}
+.dispcription-seminar > p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    color: #7f8a93;
+}
+
+.dispcription-seminar > p:nth-child(1) > label{
+    width: 40rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 0;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+.dispcription-seminar > p > label{
+    margin-left: 1rem;
+}
+.dispcription-seminar > p > img{
+    width: 2rem;
+}
+
+.novigation-seminar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.novigation-seminar > button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    border-radius: 33px;
+    padding: 15px 25px;
+    background: #82b197;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.novigation-seminar > button:hover {
+    box-shadow: 0 12px 26px rgba(9,4,21,.31);
+}
+.novigation-seminar > a {
+    font-size: 1.7rem;
+    text-decoration: underline;
+    color: #373a45;
+}
+
+@media screen and (max-width: 1185px) {
+    .all-seminars > div > p {
+        font-size: 1.7rem;
+    }
+    .all-seminars > div > p > label:nth-child(1) {
+        font-size: 2rem;
+    }
+
+    .dispcription-seminar > p {
+        font-size: 1.3rem;
+    }
+
+    .dispcription-seminar > p:nth-child(1) > label {
+        font-size: 2.5rem;
+    }
+
+    .novigation-seminar > a {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1125px) {
+    .dispcription-seminar > p:nth-child(1) > label {
+        width: 30rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .all-seminars > div {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .all-seminars > div > p {
+        width: 100%;
+        border-radius: 33px 33px 0 0 ;
+        padding: 1rem 0;
+    }
+    .novigation-seminar { 
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .dispcription-seminar > p:nth-child(1) > label {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .dispcription-seminar > p:nth-child(1) > label {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 560px) {
+    .all-seminars > div {
+        flex-direction: column;
+        width: 90%;
+    }
+    .all-seminars > div > p {
+        font-size: 1.9rem;
+    }
+    .all-seminars > div > p > label:nth-child(1) {
+        font-size: 2.5rem;
+    }
+
+    .dispcription-seminar > p {
+        font-size: 1.8rem;
+    }
+
+    .dispcription-seminar > p:nth-child(1) > label {
+        font-size: 2.9rem;
+    }
+
+    .novigation-seminar > a {
+        font-size: 1.9rem;
+    }
+}

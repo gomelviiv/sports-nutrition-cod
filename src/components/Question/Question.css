@@ -1,0 +1,223 @@
+.faq {
+    margin: 60px 0;
+}
+.faq > div {
+    margin: 0 auto;
+    width: 1200px;
+}
+.row-faq {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.left-content {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.right-content {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.about-menu__right {
+    padding: 30px;
+    border-radius: 4px;
+    border: 2px solid #f3f3ef;
+    margin-bottom: 30px;
+}
+.about-menu__head {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+ul.left-menu {
+    color: #43494c;
+}
+ul.left-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    position: relative;
+}
+ul.left-menu li {
+    background: none;
+    padding: 7px;
+    text-decoration: underline;
+}
+ul.left-menu li > a {
+    color: black;
+}
+
+
+#stick-in-parent {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90px;
+}
+.ask-form {
+    background: #f5f4e5;
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+.ask-form__heading {
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+}
+.ask-form__text {
+    font-family: 'Roboto';
+    line-height: 1.75em;
+}
+.ask-form form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.ask-form form input[type=text], .ask-form form input[type=email], .ask-form form input[type=tel] {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 33px;
+    padding: 10px 15px;
+    border: none;
+    margin-bottom: 15px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+textarea.form-control {
+    height: auto;
+    background-color: #fff;
+    font-size: 1.389rem;
+    line-height: 1.5;
+    color: #495057;
+    border-radius: 33px;
+    padding: 10px 15px;
+    border: none;
+}
+.privacy-box {
+    flex: 0 0 100%;
+    display: flex;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+}
+.privacy-box input {
+    margin-left: 0;
+    flex: 0 0 20px;
+    width: 17px;
+    height: 17px;
+}
+.privacy-box p {
+    margin-right: auto;
+    padding-left: 5px;
+    font-size: 13px;
+    margin-top: 4px;
+    opacity: .7;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+}
+#form-submit:hover, #form-submit:active {
+    background: #82b197;
+}
+#form-submit {
+    display: block;
+    padding: 11px 20px;
+    background: #95d8b3;    ;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2em;
+    font-size: 16px;
+    transition: .2s;
+    font-weight: bold;
+    border: none;
+}
+
+.faq-li >div {
+    display: flex;
+    flex-direction: row;
+}
+
+.faq-li>div>button {
+    flex: 0 0 calc(100% - 40px);
+    text-align: left;
+    display: inline-block;
+    flex-grow: 1;
+    background: 0 0;
+    padding: 4px 15px 4px 20px;
+    color: #424451;
+    transition: all .15s;
+    border-radius: 0 33px 33px 0;
+    border: 1px solid #d9e0e6;
+    outline: 0;
+    cursor: pointer;
+}
+
+.faq-li>div > div {
+    /* content: counter(li); */
+    color: #858589;
+    display: inline-block;
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    background: #fff;
+    direction: rtl;
+    text-align: center;
+    line-height: 53px;
+    font-weight: 700;
+    transition: all .15s;
+    border-radius: 33px 0 0 33px;
+    border: 1px solid #d9e0e6;
+    border-right: none;
+}
+.faq-li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+.faq-li>div>button h3 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.faq-list__header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.faq-list__header .list__filter {
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+.list__filter input {
+    padding: 20px;
+    border: 1px solid #90b54c;
+    border-radius: 33px;
+    background: #fff;
+    color: #65696b;
+    margin-bottom: 0;
+}
+.faq-p-none {
+    display: none;
+    
+}
+.faq-p-block {
+    display: block;
+    flex: 0 0 100%;
+    padding: 15px 0 15px 62px;
+    font-family: 'Roboto', serif;
+}

@@ -1,0 +1,35 @@
+.footer {
+    background: #95d8b3;
+    padding: 5rem 0 ;
+    /* position: absolute; */
+    bottom: 0;
+}
+.footer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.social  { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social > a  {
+    color: white;
+    font-size: 1.9rem;
+    margin: 0 1rem;
+} 
+.social > a > img { 
+    width:2.5rem;
+}
+
+.hotoffer {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.hotoffer > a{
+    color: white;   
+}

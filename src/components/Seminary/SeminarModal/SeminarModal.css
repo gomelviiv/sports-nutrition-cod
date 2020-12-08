@@ -1,0 +1,62 @@
+.seminar-modal {
+    /* top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); */
+    width: 100%;
+    font-size: 2rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px black solid;
+    font-family: "Roboto Slab", serif;
+
+}
+
+.seminar-modal > h2 { 
+    color: white;
+    padding: 2rem;
+    background: #82b197;
+    text-align: center;
+    width: 100%;
+}
+
+.seminar-modal > input {
+    padding: 14px 0px 14px 11px;
+    border-radius: 4px;
+    width: 90%;
+    border: 1px solid #274111;
+    margin: 10px 0;
+    font-size: 2rem;    
+}
+.seminar-modal > div {
+    margin: 1rem 0;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+.seminar-modal > div > div:nth-child(2){
+    margin-left: 1rem;
+}
+.seminar-modal > button {
+    display: block;
+    padding: 11px 20px;
+    background: #95d8b3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2em;
+    font-size: 16px;
+    transition: .2s;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.seminar-modal > button:hover{
+    background: #82b197;
+}

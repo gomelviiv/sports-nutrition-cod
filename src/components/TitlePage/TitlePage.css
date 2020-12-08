@@ -1,0 +1,35 @@
+.title-page {
+    background: url(../../../images/head-bg.jpg)  no-repeat center / cover;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+    background-attachment: fixed;
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+}
+.title-page > div {
+    max-width: 85rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-page > div > h1 {
+    line-height: 6rem;
+    letter-spacing: 0.1rem;
+}
+.title-page > div > p {
+    letter-spacing: 0.1rem;
+    margin-top: 3rem;
+    font-size: 2.3rem;
+}
+
+@media screen and (max-width: 650px) {
+   
+    .title-page{
+        padding-bottom: 3rem;
+    } 
+}

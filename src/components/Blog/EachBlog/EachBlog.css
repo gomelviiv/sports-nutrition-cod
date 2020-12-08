@@ -1,0 +1,118 @@
+.container-fluid {
+    padding-bottom: 5rem;
+}
+
+.hot-article {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    min-height: 380px;
+}
+
+.blog-inside .hot-article {
+    border-radius: 2px;
+    height: auto;
+}
+
+.hot-article_content {
+    position: absolute;
+    z-index: 4;
+    left: 40px;
+    bottom: 40px;
+    right: 70px;
+}
+.blog-inside .hot-article_content {
+    bottom: 25px;
+}
+.hot-article_content > h2 {
+    font-size: 3rem;
+    margin-bottom: 10rem;    
+    text-align: center;
+    color: white;
+}
+.hot-article_footer {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.hot-article_footer__date, .hot-article_footer__views, .hot-article_footer__comments {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.blog-inside .hot-article img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.hot-article img {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.article-author {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1rem;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    margin: 25px 0;
+    align-items: center;
+}
+
+.article-title {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+    color: #a9a9a9;
+}
+.author-img {
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 76px;
+}
+.author-content_name {
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 5px;
+}
+.author-content_decs {
+    font-size: 14px;
+}
+.author-content {
+    padding: 2rem;
+}
+
+.blog-inside .content__container-wrap p, .blog-inside .content__container-wrap > span {
+    padding: 0 40px;
+}
+.blog-inside .content__container-wrap p {
+    font-size: 16px;
+    line-height: 1.9em;
+    color: #464646;
+    padding: 0 0;
+    font-family: 'Roboto';
+
+}
+
+.text-in-blog {
+    line-height: 2rem;
+    font-size: 14px;
+    padding: 1rem;
+}
+@media screen and (max-width: 500px) {
+    .hot-article_content > h2 {
+        font-size: 2.5rem;
+        margin-bottom: 7rem;    
+        text-align: center;
+        color: white;
+    }
+}

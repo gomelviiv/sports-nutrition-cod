@@ -1,0 +1,17 @@
+.modalPersData{
+    position: absolute;
+    /* top: 220%; */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    z-index: 5;
+    width: 40rem;
+    background: white;
+    height: 50rem;
+    overflow: auto ;   
+}
+
+.ReactModal__Overlay {
+    z-index: 100;
+}

@@ -1,0 +1,21 @@
+.privacy_block{
+     padding: 30px;
+}
+
+.modal-head {
+    background: #80b416;
+    position: relative;
+    color: #fff;
+}
+.modal-head button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: 0 0;
+    color: black;
+    border: 1px black solid;
+    border: none;
+    border-radius: 50%;
+    font-size: 2em;
+    cursor: pointer;
+}   

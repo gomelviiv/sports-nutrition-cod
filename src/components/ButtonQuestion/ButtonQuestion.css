@@ -1,0 +1,28 @@
+.q-button {
+    position: fixed;
+    z-index: 100;
+    bottom: 5rem;
+    right: 5rem;
+}
+
+.q-button > button {
+    background: #fffa6a;
+    color: #000;
+    padding: 3rem 2rem;
+    border-radius: 2em;
+    box-shadow: 0 0 0 5px rgba(218, 229, 132, .2);
+    text-align: center;
+    border-radius: 50%;
+    border: 0.3rem #fffa6a solid;
+    line-height: 2rem;
+    font-size: 1.4rem;
+
+}
+
+.q-button > button:hover {
+    background: #fffa6a;
+    box-shadow: 0 12px 26px rgba(132, 45, 45, 0.37);
+}
+.q-button  a {
+ color: black;
+} 

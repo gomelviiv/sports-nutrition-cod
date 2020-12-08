@@ -1,0 +1,127 @@
+
+.seminary-information {
+    z-index: 2;
+    font-family: "Roboto Slab", serif;
+
+}
+
+.seminary-information > div{
+    max-width: 150rem;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+
+.image-plus-text-1{
+    background: url('../../../../images/serv.jpg')  no-repeat center / cover;
+    background-color: rgba(0, 0, 0, 0.52);
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 20px;
+    background-size: cover;
+}
+.top-inf{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-family: "Roboto Slab", serif;
+    padding: 3rem;
+
+}
+.top-inf-img {
+    max-width: 70rem;
+    width: 100%;
+}
+.top-inf-img >img {
+    width: 100%;
+    height: auto;
+}
+.table-inf {
+    margin-left: 3rem;
+}
+
+.table-inf > tr >td{
+    padding: 2rem;
+    line-height: 2.3rem;
+    border-bottom: 1px #95d8b3 solid;
+}
+
+.table-inf > tr >td:nth-child(1){
+    border-right: 1px #95d8b3 solid;
+    
+}
+.table-inf > tr:nth-child(1) > td {
+    border-top: 1px #95d8b3 solid;
+}
+.sem-information > h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.dis-each-sem { 
+    font-size: 1.7rem;
+}
+.dis-each-sem > p{
+    line-height: 2.5rem;
+    margin: 1.2rem 0;
+}
+
+.table-inf > button, .sem-information > button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    border-radius: 33px;
+    padding: 15px 25px;
+    background: #82b197;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.sem-information > button {
+    margin-bottom: 2rem;
+}
+.table-inf > button:hover, .sem-information > button:hover {
+    box-shadow: 0 12px 26px rgba(9,4,21,.31);
+}
+
+.seminary-information > div {
+    padding: 0 2rem;
+}
+
+@media screen and (max-width: 1085px) {
+    
+    .top-inf {
+        flex-direction: column;
+    }
+    .table-inf {
+        margin-left: 0rem;  
+    }
+    .top-inf-img {
+        max-width: 100%;
+    }
+    .top-inf {
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .table-inf > tr >td {
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+}
